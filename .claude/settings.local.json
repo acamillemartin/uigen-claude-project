@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest run src/components/chat/__tests__/ToolCallLabel.test.tsx 2>&1)",
+      "Bash(git init && git add . && git commit -m \"Initial commit\" && git remote add origin https://github.com/acamillemartin/uigen-claude-project.git && git branch -M main && git push -u origin main)"
+    ]
+  }
+}
